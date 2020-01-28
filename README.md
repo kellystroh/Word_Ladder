@@ -15,7 +15,7 @@ My current collection of phrases contains some pretty I used NLP tools to extrac
 
 ### Improvements in Progress
 * Improved Collection of Phrases (including a fix to faulty lemmatization)
-* ~~Better web formatting.~~ I'd like to make a How-To guide~~, but I'm too embarassed to share shoddy HTML files.~~ I am no longer embarassed of my HTML files, though they'll only feature in the How-To guide to demonstrate the Flask components
+* ~~Better web formatting.~~. I'd like to make a How-To guide ~~, but I'm too embarassed to share shoddy HTML files.~~ I am no longer embarassed of my HTML files, though they'll only feature in the How-To guide to demonstrate the Flask components
 * GitHub links. I'm working to make it easier to navigate before sharing.
 * Change Scoring method. It seemed fair to award fewer points for guessing the word "book" if the preview is "boo" than if the preview is "b". However, the current formula could unfairly disadvantage a player for getting shorter words.
 * Enable phrase feedback. Building a tool allowing users to mark phrases that should be removed from the collection. I'd like an easy path to remove phrases that users deem inappropriate or offensive. The pairing process takes out of their intended context, and news stories can cover sensitive topics.
