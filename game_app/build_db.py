@@ -14,7 +14,6 @@ from sqlalchemy import create_engine
 #create declarative_base instance
 Base = declarative_base()
 
-#we'll add classes here
 
 #creates a create_engine instance at the bottom of the file
 engine = create_engine('sqlite:///game-records.db')
