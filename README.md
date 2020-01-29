@@ -1,6 +1,6 @@
 # Word Ladder
 This repo was created to accompany a word game I built and deployed to www.strohberryfields.com/word_ladder . I am working on several improvements to both the repo and the game, but in the meantime, you can explore the code used to create the game. 
-![Word Game](/Users/Kelly/galvanize/Word_Ladder/scrabble.jpg)
+![Word Game](https://github.com/kellystroh/Word_Ladder/scrabble.jpg)
 
 ## Using the Repo:
 #### Part 1
