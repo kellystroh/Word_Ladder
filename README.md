@@ -1,7 +1,9 @@
 # Word Ladder
 This repo was created to accompany a word game I built and deployed to www.strohberryfields.com/word_ladder . I am working on several improvements to both the repo and the game, but in the meantime, you can explore the code used to create the game. 
 
-<img src="scrabble.jpg" alt="word game" width="400" align="center"/>
+<p align="center">
+  <img src="scrabble.jpg" alt="word game" width="400">
+</p>
 
 ## Using the Repo:
 #### Part 1
