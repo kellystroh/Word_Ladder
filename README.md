@@ -3,8 +3,13 @@
 This repo was created to accompany a word game I built and deployed to www.strohberryfields.com/word_ladder . I am working on several improvements to both the repo and the game, but in the meantime, you can explore the code used to create the game. 
 
 ## Using the Repo:
-To see the steps I took to generate the first collection of phrases, check out 'phrase_finder_gen1.py'. This has minor annotations, but I am currently writing a more thorough explanation of why I took certain steps, as well as which steps I will change when I create phrase collection 2.0.  
-
+#### Part 1
+To see the steps I took to generate the first collection of phrases, check out 'phrase_finder_gen1.py'. This has minor annotations, but I am currently writing a more thorough explanation of why I took certain steps, as well as which steps I will change when I create phrase collection 2.0. This will also feature instructions for how to replicate the process. 
+#### Part 2
+The steps I took to build & deploy the game app are slightly more elaborate. The necessary files are located in the folder "game_app". These are not yet annotated, but the app is ready to run in it's current state. The following code will launch the app locally. 
+* python build_db.py
+* python init_db.py
+* python app.py
 
 
 ## About this Project
