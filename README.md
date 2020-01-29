@@ -17,15 +17,15 @@ The steps I took to build & deploy the game app are slightly more elaborate. The
 
 ## About this Project
 
-### Beware Weird Phrases
-I used NLP tools to extract two-word phrases from 150,000 news articles. I took the most common 100,000 word pairings and removed words with fewer than three 'connecting' words to avoid potential dead ends. The resulting collection includes many phrases that do not qualify as common idioms, and a handful that may be offensive. An improved collection is in the works!
-
 ### Inspiration
 The core idea of this game was inspired by the game show Chain Reaction. On the show, the phrases are always "common", two-word idioms in American English. Only rarely have I seen an unfamiliar turn of phrase pop up, so they set the bar high. Alas, I have yet to find an extensive database of idioms, let alone two-word idioms. The good news is that this gave me a way to make the project more data-sciencey (in technical terms). The bad news is that my current collection of phrases is bound to disappoint game show connoisseurs, including my mother, who has proclaimed that my "phrases are terrible". 
 
 As for the data science, I built this because I love word games & I enjoy any excuse to do NLP. I have considered scraping online resources, but I wanted to start with the challenge of generating a collection of phrases using NLP tools. When I have finished annotating my work, I will post the GitHub links, where you can find the details of the process. For now, I will just say that it is ongoing. The current batch of phrases is a mix of idioms and pairs of words that happen to occur frequently in news stories. 
 
 I also wanted to practice deploying a flask app that has more interactive functionality than my website. I am not a web developer, so this will not be the ideal example of best practices in web apps. That said, it has led me to explore lots of free resources, so I will eventually write out some tips for fellow beginners.
+
+### Beware Weird Phrases
+I used NLP tools to extract two-word phrases from 150,000 news articles. I took the most common 100,000 word pairings and removed words with fewer than three 'connecting' words to avoid potential dead ends. The resulting collection includes many phrases that do not qualify as common idioms, and a handful that may be offensive. An improved collection is in the works!
 
 ### Improvements in Progress
 * Improved Collection of Phrases (including a fix to faulty lemmatization)
