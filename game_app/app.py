@@ -15,7 +15,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, TextField, SubmitField, HiddenField
 from wtforms.validators import DataRequired, Length
 
-app.config['SECRET_KEY'] = 'fijiferry'
+app.config['SECRET_KEY'] = 'somesecretkey'
 
 #Connect to Database and create database session
 engine = create_engine('sqlite:///game-records.db')

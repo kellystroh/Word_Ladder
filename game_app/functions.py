@@ -292,24 +292,3 @@ def pick_set(word_dict):
     word9, word_list = pick_new(word_dict, word8, word_list)
     _, word_list = pick_new(word_dict, word9, word_list)
     return word_list
-
-
-
-
-'''
-from sqlalchemy import create_engine, update
-from sqlalchemy.orm import sessionmaker, scoped_session
-from database_setup import Base, Game
-import numpy as np
-import random
-from sqlalchemy.sql.expression import func
-import pickle
-from functions import pick_new, pick_set, Generate_Board0, Generate_Board1
-engine = create_engine('sqlite:///game-records.db')
-Base.metadata.bind = engine
-
-DBSession = sessionmaker(bind=engine)
-session = DBSession()
-x = Generate_Board0()
-x.brd
-'''
