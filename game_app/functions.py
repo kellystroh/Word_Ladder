@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 from sqlalchemy import create_engine, update
 from sqlalchemy.orm import sessionmaker, scoped_session
-from database_setup import Base, Game, Turn
+from build_db import Base, Game, Turn
 import numpy as np
 import random
 import pickle

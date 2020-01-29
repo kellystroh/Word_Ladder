@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 from sqlalchemy import create_engine, update
 from sqlalchemy.orm import sessionmaker, scoped_session
-from database_setup import Base, Game
+from build_db import Base, Game
 import numpy as np
 import random
 from functions import pick_new, pick_set, find_active
